@@ -31,6 +31,7 @@ def CLI():
             print("decrypted message is: ", rsaObject.decryptText(privKey))
             print('deleting shards files!')
             for x in os.listdir():
+                # delete shard files
                 if x.startswith("Shard"):
                     os.remove(x)
             option=input("Press y to end program, n to restart: ")
