@@ -1,0 +1,7 @@
+cryptography==37.0.2
+pycparser==2.20
+pyparsing==2.4.7
+pyseltongue==1.0.1
+pytest==6.2.4
+rsa==4.8
+
