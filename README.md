@@ -24,7 +24,7 @@ cd RSA-Shamir
 ```bash
 pip install -r requirements.txt
 ```
-** In case of failure of above command due to version mismatch of any dependency, comment out the particular dependency in 'requirements.txt' and install manually using the command below and re run the above command:
+* In case of failure of above command due to version mismatch of any dependency, comment out the particular dependency in 'requirements.txt' and install manually using the command below and re run the above command:
 ```bash
 pip install <failed-dependency-name>
 ```
