@@ -41,6 +41,15 @@ cd root
 python cliTool.py run app
 ```
 
+* If the above command doesn't work on your os, then try:
+```bash
+python3 cliTool.py run app
+```
+or
+```bash
+py cliTool.py run app
+```
+
 ## Run Test
 
 ```bash
